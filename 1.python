@@ -13,9 +13,8 @@ def is_even(n):
     """Check if a number is even."""
     return n % 2 == 0
 
-def subtract(a, b):
-    """Return the difference of two numbers."""
-    return a - b
+# 删除subtract函数，因为它不再需要
+
 
 # 增加multiply函数，用于计算两个数的乘积
 def multiply(a, b):
